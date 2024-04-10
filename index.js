@@ -4,6 +4,9 @@ const n2 = 15;
 const n3 = 20;
 const n4 = 5;
 
+
+// Part 1
+
 // Check if all numbers are divisible by 5. Cache the result in a variable.
 const divByfive = (n1 % 5, n2 % 5, n3 %5, n4 % 5) == 0;
 console.log("divByfive");
@@ -26,6 +29,8 @@ console.log(remainder);
 
 //********** */ Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
 
+
+// Part 2
 // Let’s look at a more practical scenario.
 // You are planning a cross-country road trip!
 // The distance of the trip, in total, is 1,500 miles.
@@ -75,13 +80,21 @@ console.log("woohoo, let's go!");
 }else if(costOftripHigh < 175){
   console.log("woohoo, let's go!");
 }
+else if((costOftripHigh >= 175) (costOftripMid >= 175) (costOftripHigh >= 175)){
+console.log("this trip is a no go");
+}else{
+console.log("let's go");
+}
+// Part 3
 
 
 
 
-
-
-
+// // The initial numbers that must be verified.
+// const n1 = 10;
+// const n2 = 15;
+// const n3 = 20;
+// const n4 = 5;
 // Check one: add up to 50
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
